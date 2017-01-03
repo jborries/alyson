@@ -4,7 +4,7 @@ Rails.application.configure do
   config.assets.compile = true
   config.assets.initialize_on_precompile = false
   config.assets.precompile += %w( *.css *.js )
-  
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
