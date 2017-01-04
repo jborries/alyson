@@ -6,6 +6,7 @@
 #
 default: &default
   adapter: PostgreSQL
+  username: ubuntu
   pool: 5
   timeout: 5000
 
