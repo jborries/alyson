@@ -5354,8 +5354,9 @@ button.btn-floating {
   right: 0;
   background-color: #fafafa;
   padding: 0;
-  max-height: 70%;
-  width: 75% !important;
+  height: 80%; /*added this in then made slider fullscreen in modal*/
+  max-height: 100%; /*original 70%*/
+  width: 95% !important;  /*original 75%*/
   max-height:100% !important;
   overflow-y: hidden !important;
   margin: auto;
@@ -5377,7 +5378,7 @@ button.btn-floating {
 }
 
 .modal .modal-content {
-  padding: 24px;
+  padding: 0px;
 }
 
 .modal .modal-close {
@@ -7778,7 +7779,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .carousel .carousel-item img {
   width: 100%;
-  
+
 }
 
 .carousel .indicators {
